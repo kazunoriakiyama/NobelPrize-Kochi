@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>（仮称）北川進教授 ノーベル化学賞受賞記念 特別イベント LP</title>
+    <meta name="description" content="2025年ノーベル化学賞受賞・北川進教授と、高知出身の樋口雅一准教授による特別講演イベント。2026年8月27日〜28日、高知市オーテピアにて開催。">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e04c3c",
+                        "secondary": "#2563eb",
+                        "background-light": "#fcfbfa",
+                        "background-dark": "#1a1a1a",
+                    },
+                    fontFamily: {
+                        "display": ["'BIZ UDGothic'", "sans-serif"],
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'BIZ UDGothic', sans-serif;
+            scroll-behavior: smooth;
+            letter-spacing: 0.04em;
+        }
+
+        /* カウントダウンタイマー */
+        #countdown-days,
+        #countdown-hours,
+        #countdown-minutes,
+        #countdown-seconds {
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* タイムラインのドット */
+        .timeline-dot {
+            position: absolute;
+            left: -41px;
+            top: 5px;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 9999px;
+            background-color: #e04c3c;
+            border: 4px solid #fcfbfa;
+        }
+
+        .timeline-dot-blue {
+            position: absolute;
+            left: -41px;
+            top: 5px;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 9999px;
+            background-color: #2563eb;
+            border: 4px solid #fcfbfa;
+        }
+
+        /* カードホバー */
+        .speaker-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(224, 76, 60, 0.12);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light text-slate-900">
+
+    <!-- ヘッダー -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-primary/10 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <h2 class="font-bold text-xs md:text-sm tracking-tight text-primary leading-tight">
+                （仮称）北川進教授 ノーベル化学賞受賞記念 特別イベント
+            </h2>
+            <div class="flex items-center gap-3">
+                <span
+                    class="text-xs font-bold bg-primary text-white px-3 py-1.5 rounded-full shadow-sm">席数限定・事前申込制</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- ヒーローセクション -->
+        <section class="py-14 md:py-24 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <div class="flex-1 text-center md:text-left">
+                <span
+                    class="inline-block px-4 py-1.5 bg-primary/10 text-primary text-xs font-bold rounded-full mb-5 border border-primary/20 tracking-widest">SPECIAL
+                    EVENT 2026</span>
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight tracking-tight mb-6">
+                    世界に<span class="text-primary">触</span>れる<br>
+                    <span class="text-5xl md:text-7xl">2</span>日間
+                </h1>
+                <p class="text-xl md:text-2xl font-bold text-slate-500 mb-8 tracking-wide">高知市 × 京都大学 iCeMS</p>
+                <div class="hidden md:block p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+                    <p class="leading-relaxed text-slate-700 text-base">
+                        京都大学・北川進教授と高知出身の樋口雅一准教授。<br>
+                        ２人の師弟の絆が紡ぐ、科学の最前線を体感する特別な2日間。
+                    </p>
+                </div>
+                <div class="hidden md:flex mt-6 gap-3">
+                    <span
+                        class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-xl">calendar_month</span>
+                        2026年8月28日（金）〜 29日（土）
+                    </span>
+                </div>
+            </div>
+            <!-- メインビジュアル -->
+            <div class="flex-1 w-full max-w-md md:max-w-none">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] md:aspect-square bg-slate-200">
+                    <div
+                        class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-gradient-to-br from-slate-100 to-slate-300">
+                        <span class="material-symbols-outlined text-8xl text-primary/30 mb-4">science</span>
+                        <p class="text-slate-400 text-sm font-bold tracking-widest">MAIN VISUAL</p>
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent p-8 flex flex-col justify-end">
+                        <p class="text-white text-xl font-bold mb-0.5">北川 進 教授</p>
+                        <p class="text-slate-300 text-sm mb-5">2025年 ノーベル化学賞受賞</p>
+                        <p class="text-white text-xl font-bold mb-0.5">樋口 雅一 准教授</p>
+                        <p class="text-slate-300 text-sm">京都大学 iCeMS（高知県出身）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- モバイル用キャッチコピー -->
+        <section class="md:hidden -mt-4 pb-10 text-center">
+            <p class="leading-relaxed text-slate-700 text-base">
+                京都大学・北川進教授と、高知出身の樋口雅一准教授。<br>師弟の絆が紡ぐ、科学の最前線を体感する特別な2日間。
+            </p>
+            <div class="mt-4 flex justify-center">
+                <span
+                    class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold shadow-sm">
+                    <span class="material-symbols-outlined text-primary text-xl">calendar_month</span>
+                    2026年8月28日（金）〜 29日（土）
+                </span>
+            </div>
+        </section>
+
+        <!-- カウントダウン -->
+        <section class="py-12 border-t border-slate-100">
+            <p class="text-center text-xs font-bold tracking-widest text-slate-400 mb-6">COUNTDOWN TO THE EVENT</p>
+            <div class="flex justify-center gap-4">
+                <div class="flex flex-col items-center gap-2">
+                    <div
+                        class="w-20 h-20 md:w-24 md:h-24 bg-white border-2 border-primary/20 rounded-2xl flex items-center justify-center shadow-sm">
+                        <span id="countdown-days" class="text-3xl md:text-4xl font-bold text-primary">--</span>
+                    </div>
+                    <p class="text-xs font-bold text-slate-500 tracking-widest">日</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div
+                        class="w-20 h-20 md:w-24 md:h-24 bg-white border-2 border-primary/20 rounded-2xl flex items-center justify-center shadow-sm">
+                        <span id="countdown-hours" class="text-3xl md:text-4xl font-bold text-primary">--</span>
+                    </div>
+                    <p class="text-xs font-bold text-slate-500 tracking-widest">時</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div
+                        class="w-20 h-20 md:w-24 md:h-24 bg-white border-2 border-primary/20 rounded-2xl flex items-center justify-center shadow-sm">
+                        <span id="countdown-minutes" class="text-3xl md:text-4xl font-bold text-primary">--</span>
+                    </div>
+                    <p class="text-xs font-bold text-slate-500 tracking-widest">分</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div
+                        class="w-20 h-20 md:w-24 md:h-24 bg-white border-2 border-primary/20 rounded-2xl flex items-center justify-center shadow-sm">
+                        <span id="countdown-seconds" class="text-3xl md:text-4xl font-bold text-primary">--</span>
+                    </div>
+                    <p class="text-xs font-bold text-slate-500 tracking-widest">秒</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 参加対象・スケジュール -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 py-16 border-t border-slate-100">
+
+            <!-- 参加対象者 -->
+            <section>
+                <h3 class="text-2xl font-bold mb-8 flex items-center gap-3 pb-4 border-b-2 border-primary/20">
+                    <span class="material-symbols-outlined text-primary text-3xl"
+                        style="font-variation-settings: 'FILL' 1;">groups</span>
+                    参加対象者
+                </h3>
+                <div class="space-y-4">
+                    <div
+                        class="p-5 bg-white rounded-xl shadow-sm border border-slate-100 hover:border-primary/30 transition-colors">
+                        <p class="font-bold text-lg text-primary mb-1">学生（小学生〜大学生）</p>
+                        <p class="text-sm text-slate-600">科学に興味がある・研究者を志す次世代の皆さま</p>
+                    </div>
+                    <div
+                        class="p-5 bg-white rounded-xl shadow-sm border border-slate-100 hover:border-primary/30 transition-colors">
+                        <p class="font-bold text-lg text-primary mb-1">一般・社会人</p>
+                        <p class="text-sm text-slate-600">最新の科学技術やイノベーション・社会実装に関心のある皆さま</p>
+                    </div>
+                    <div
+                        class="p-5 bg-white rounded-xl shadow-sm border border-slate-100 hover:border-primary/30 transition-colors">
+                        <p class="font-bold text-lg text-primary mb-1">教育関係者</p>
+                        <p class="text-sm text-slate-600">理科教育・次世代育成に携わる教員および教育機関の皆さま</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- タイムスケジュール -->
+            <section>
+                <h3 class="text-2xl font-bold mb-8 flex items-center gap-3 pb-4 border-b-2 border-primary/20">
+                    <span class="material-symbols-outlined text-primary text-3xl"
+                        style="font-variation-settings: 'FILL' 1;">event_note</span>
+                    タイムスケジュール
+                </h3>
+                <div class="relative border-l-2 border-primary/20 ml-4 pl-10 space-y-8">
+                    <!-- 8月28日ヘッダー -->
+                    <div class="relative">
+                        <div class="timeline-dot"></div>
+                        <p class="text-2xl md:text-3xl font-bold text-primary tracking-tight">8月28日（金）</p>
+                        <p class="text-xs text-slate-400 mt-1">ノーベル化学賞受賞記念イベント</p>
+                    </div>
+                    <div class="relative pl-2">
+                        <div class="timeline-dot"></div>
+                        <p class="font-bold text-primary text-sm">14:00〜14:30</p>
+                        <p class="font-bold text-base mb-0.5">ノーベル賞受賞記念講演</p>
+                        <p class="text-xs text-slate-500">北川 進 教授 ／ 会場：オーテピア</p>
+                    </div>
+                    <div class="relative pl-2">
+                        <div class="timeline-dot"></div>
+                        <p class="font-bold text-primary text-sm">14:40〜15:30</p>
+                        <p class="font-bold text-base mb-0.5">小中学生研究発表</p>
+                        <p class="text-xs text-slate-500">北川 教授 × 樋口 准教授</p>
+                    </div>
+                    <div class="relative pl-2">
+                        <div class="timeline-dot"></div>
+                        <p class="font-bold text-primary text-sm">15:35〜16:00</p>
+                        <p class="font-bold text-base mb-0.5">MOFモフ出前教室</p>
+                        <p class="text-xs text-slate-500">子ども・学生向け特別プログラム</p>
+                    </div>
+                </div>
+
+                <!-- 8月29日セクション（青系） -->
+                <div class="relative border-l-2 border-secondary/20 ml-4 pl-10 space-y-8 mt-12">
+                    <div class="relative">
+                        <div class="timeline-dot-blue"></div>
+                        <p class="text-2xl md:text-3xl font-bold text-secondary tracking-tight">8月29日（土）</p>
+                        <p class="text-xs text-slate-400 mt-1">市民向け特別講演会</p>
+                    </div>
+                    <div class="relative pl-2">
+                        <div class="timeline-dot-blue"></div>
+                        <p class="font-bold text-secondary text-sm">10:00〜12:00</p>
+                        <p class="font-bold text-base mb-0.5">市民向け特別講演会（仮称）</p>
+                        <p class="text-xs text-slate-500">最先端の化学を暮らしの視点から楽しく紐解く特別セッション</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 登壇者紹介 -->
+        <section class="py-16 border-t border-slate-100">
+            <h3 class="text-3xl font-bold text-center mb-3 tracking-widest">SPEAKERS</h3>
+            <p class="text-center text-sm text-slate-400 mb-12 font-bold tracking-widest">登壇者紹介</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 北川教授 -->
+                <div
+                    class="speaker-card bg-white p-8 rounded-3xl text-center shadow-sm border border-slate-100 transition-all duration-300">
+                    <div
+                        class="w-32 h-32 rounded-full mx-auto mb-6 bg-slate-200 flex items-center justify-center shadow-lg border-4 border-primary/10">
+                        <span class="material-symbols-outlined text-5xl text-slate-400">person</span>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-1">北川 進</h4>
+                    <p class="text-primary font-bold text-sm mb-1 tracking-wide">京都大学 特別教授</p>
+                    <p class="text-xs text-slate-400 mb-4 tracking-wider">京都大学 iCeMS 主任研究者</p>
+                    <div class="w-10 h-0.5 bg-primary mx-auto mb-4 rounded-full"></div>
+                    <p class="text-sm leading-relaxed text-slate-600">
+                        2025年ノーベル化学賞を受賞。多孔性配位高分子（PCP/MOF）の世界的権威。「分子の器」で気体を自在に制御する革新技術を開拓。</p>
+                </div>
+                <!-- 樋口准教授 -->
+                <div
+                    class="speaker-card bg-white p-8 rounded-3xl text-center shadow-sm border border-slate-100 transition-all duration-300">
+                    <div
+                        class="w-32 h-32 rounded-full mx-auto mb-6 bg-slate-200 flex items-center justify-center shadow-lg border-4 border-primary/10">
+                        <span class="material-symbols-outlined text-5xl text-slate-400">person</span>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-1">樋口 雅一</h4>
+                    <p class="text-primary font-bold text-sm mb-1 tracking-wide">京都大学 iCeMS 准教授</p>
+                    <p class="text-xs text-slate-400 mb-4 tracking-wider">高知県出身 ／ 北川研究室 門下生</p>
+                    <div class="w-10 h-0.5 bg-primary mx-auto mb-4 rounded-full"></div>
+                    <p class="text-sm leading-relaxed text-slate-600">
+                        高知の地から世界最高峰の研究の場へ。次世代の材料科学を牽引する若きリーダー。故郷・高知への「恩返し」として本イベントを実現。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- アクセス -->
+        <section class="py-16 border-t border-slate-100">
+            <h3 class="text-3xl font-bold mb-2 tracking-widest">ACCESS</h3>
+            <p class="text-sm text-slate-400 font-bold tracking-widest mb-10">会場・アクセス</p>
+            <div class="bg-slate-50 rounded-3xl p-8 md:p-12 border border-slate-200 overflow-hidden">
+                <div class="flex flex-col lg:flex-row gap-12">
+                    <div class="flex-1 space-y-8">
+                        <div>
+                            <p class="text-primary font-bold flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined"
+                                    style="font-variation-settings: 'FILL' 1;">location_on</span>会場
+                            </p>
+                            <p class="text-xl font-bold">オーテピア高知図書館 4階 ホール</p>
+                            <p class="text-sm text-slate-500 mt-1">〒780-0842 高知県高知市追手筋2-1-1</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <a href="https://otepia.kochi.jp/access.html" target="_blank" rel="noopener noreferrer"
+                                class="group p-4 bg-white rounded-xl border border-slate-200 hover:border-primary/30 shadow-sm transition-all duration-200 hover:-translate-y-0.5">
+                                <p class="text-primary font-bold flex items-center gap-2 mb-2">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">directions_bus</span>交通アクセス
+                                </p>
+                                <p class="text-xs text-slate-500 leading-relaxed">JR・路面電車・バス・車でのアクセス方法はこちら</p>
+                                <p
+                                    class="mt-2 text-xs text-primary font-bold flex items-center gap-1 group-hover:underline">
+                                    詳細を見る
+                                    <span class="material-symbols-outlined" style="font-size: 14px;">open_in_new</span>
+                                </p>
+                            </a>
+                            <a href="https://otepia.kochi.jp/access.html#access02" target="_blank"
+                                rel="noopener noreferrer"
+                                class="group p-4 bg-white rounded-xl border border-slate-200 hover:border-primary/30 shadow-sm transition-all duration-200 hover:-translate-y-0.5">
+                                <p class="text-primary font-bold flex items-center gap-2 mb-2">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">local_parking</span>駐車場
+                                </p>
+                                <p class="text-xs text-slate-500 leading-relaxed">駐車場100台（最初60分無料）・駐輪場あり</p>
+                                <p
+                                    class="mt-2 text-xs text-primary font-bold flex items-center gap-1 group-hover:underline">
+                                    詳細を見る
+                                    <span class="material-symbols-outlined" style="font-size: 14px;">open_in_new</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-h-[260px] rounded-2xl overflow-hidden border border-slate-300">
+                        <iframe src="https://maps.google.com/maps?q=オーテピア高知図書館&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            width="100%" height="100%" style="border:0; aspect-ratio: 16/9; min-height:300px;"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA（申込ボタン） -->
+        <section class="py-20 text-center">
+            <p class="text-xs font-bold tracking-widest text-slate-400 mb-6">APPLICATION</p>
+            <h3 class="text-2xl font-bold mb-2">参加申し込み</h3>
+            <p class="text-slate-500 text-sm mb-10">定員に達し次第、受付を終了いたします</p>
+            <div class="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- 8/28 申込ボタン -->
+                <div
+                    class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:border-primary/30 transition-all duration-300 hover:-translate-y-1">
+                    <p class="text-xs font-bold tracking-widest text-primary mb-2">DAY 1</p>
+                    <p class="text-lg font-bold mb-1">8月28日（金）</p>
+                    <p class="text-sm text-slate-500 mb-6">ノーベル化学賞受賞記念イベント</p>
+                    <a id="cta-button-day1" href="#"
+                        class="w-full bg-primary hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl text-base shadow-xl shadow-primary/20 transition-all duration-200 active:translate-y-0 flex items-center justify-center gap-2">
+                        <span>申し込む</span>
+                        <span class="material-symbols-outlined text-xl">arrow_forward</span>
+                    </a>
+                </div>
+                <!-- 8/29 申込ボタン -->
+                <div
+                    class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:border-secondary/30 transition-all duration-300 hover:-translate-y-1">
+                    <p class="text-xs font-bold tracking-widest text-secondary mb-2">DAY 2</p>
+                    <p class="text-lg font-bold mb-1">8月29日（土）</p>
+                    <p class="text-sm text-slate-500 mb-6">市民向け特別講演会</p>
+                    <a id="cta-button-day2" href="#"
+                        class="w-full bg-secondary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-base shadow-xl shadow-secondary/20 transition-all duration-200 active:translate-y-0 flex items-center justify-center gap-2">
+                        <span>申し込む</span>
+                        <span class="material-symbols-outlined text-xl">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <p class="mt-8 text-xs text-slate-400 leading-relaxed">
+                お申し込みいただくことで、<a href="#" class="text-primary underline hover:text-red-700">利用規約</a>に同意したものとみなされます。<br>
+                ※席数限定のため、お早めにお申し込みください。
+            </p>
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-slate-900 text-white py-12 px-4 text-center">
+        <h2 class="text-base font-bold tracking-widest mb-3 leading-loose">（仮称）ノーベル化学賞受賞記念出前教室</h2>
+        <div class="flex justify-center gap-4 mb-6 text-sm text-slate-400">
+            <span>2026年8月28日（金）〜 29日（土）</span>
+            <span>｜</span>
+            <span>オーテピア（高知市）</span>
+        </div>
+        <p class="text-xs text-slate-500">© 2026 （仮称）北川進教授 ノーベル化学賞受賞記念 特別イベントPT </p>
+    </footer>
+
+    <!-- カウントダウンJS -->
+    <script>
+        function updateCountdown() {
+            const eventDate = new Date('2026-08-27T14:00:00+09:00');
+            const now = new Date();
+            const diff = eventDate - now;
+
+            if (diff <= 0) {
+                document.getElementById('countdown-days').textContent = '00';
+                document.getElementById('countdown-hours').textContent = '00';
+                document.getElementById('countdown-minutes').textContent = '00';
+                document.getElementById('countdown-seconds').textContent = '00';
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown-days').textContent = String(days).padStart(2, '0');
+            document.getElementById('countdown-hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = String(seconds).padStart(2, '0');
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+
+</body>
+
+</html>
