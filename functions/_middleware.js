@@ -2,8 +2,8 @@ export async function onRequest(context) {
   const { request, next } = context;
 
   // ★ここで「ID」と「パスワード」を決めてください★
-  const USERNAME = "kochi";        // 好きなユーザー名
-  const PASSWORD = "nobel2026";    // 好きなパスワード
+  const USERNAME = "kochi39";        // 好きなユーザー名
+  const PASSWORD = "nobel202639";    // 好きなパスワード
 
   const authHeader = request.headers.get("Authorization");
 
